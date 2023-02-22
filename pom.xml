@@ -211,7 +211,9 @@
         <version>3.5.0.1254</version>
       </dependency>       
     </dependencies>
-              
+         
+   - mvn verify sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=acfeb1d684e0c9f2f7ae1f63626a6e7be3106a59 -Dsonar.login=admin -Dsonar.password=shreyas@123
+           
   </dependencyManagement>
 
   <scm>
