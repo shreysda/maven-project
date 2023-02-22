@@ -34,8 +34,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
 
@@ -204,21 +204,21 @@
         <scope>test</scope>
       </dependency>
              
-        <dependency>
+      <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+      <dependency>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.9.1.2184</version>
-      </dependency>    
+        <version>3.5.0.1254</version>
+      </dependency>       
     </dependencies>
-           
-           
+              
   </dependencyManagement>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:thumuvikram/maven-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>http://github.com/thumuvikram/maven-project</url>
   </scm>
 
   <prerequisites>
